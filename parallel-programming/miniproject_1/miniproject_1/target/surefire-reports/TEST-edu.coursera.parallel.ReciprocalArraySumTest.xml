@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.coursera.parallel.ReciprocalArraySumTest" time="11.93" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/manu2931/Desktop/learning/Java/java-parallel-concurrent-distributed-programming/parallel-programming/miniproject_1/miniproject_1/target/test-classes:/home/manu2931/Desktop/learning/Java/java-parallel-concurrent-distributed-programming/parallel-programming/miniproject_1/miniproject_1/target/classes:/home/manu2931/.m2/repository/org/apache/maven/plugins/maven-resources-plugin/3.3.1/maven-resources-plugin-3.3.1.jar:/home/manu2931/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar:/home/manu2931/.m2/repository/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar:/home/manu2931/.m2/repository/org/apache/maven/shared/maven-filtering/3.3.1/maven-filtering-3.3.1.jar:/home/manu2931/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/manu2931/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/manu2931/.m2/repository/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar:/home/manu2931/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/manu2931/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/manu2931/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/manu2931/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/home/manu2931/.sdkman/candidates/java/21.0.2-open/lib"/>
+    <property name="sun.java.command" value="/home/manu2931/Desktop/learning/Java/java-parallel-concurrent-distributed-programming/parallel-programming/miniproject_1/miniproject_1/target/surefire/surefirebooter-20250411232350699_3.jar /home/manu2931/Desktop/learning/Java/java-parallel-concurrent-distributed-programming/parallel-programming/miniproject_1/miniproject_1/target/surefire 2025-04-11T23-23-50_617-jvmRun1 surefire-20250411232350699_1tmp surefire_0-20250411232350699_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/manu2931/Desktop/learning/Java/java-parallel-concurrent-distributed-programming/parallel-programming/miniproject_1/miniproject_1/target/test-classes:/home/manu2931/Desktop/learning/Java/java-parallel-concurrent-distributed-programming/parallel-programming/miniproject_1/miniproject_1/target/classes:/home/manu2931/.m2/repository/org/apache/maven/plugins/maven-resources-plugin/3.3.1/maven-resources-plugin-3.3.1.jar:/home/manu2931/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar:/home/manu2931/.m2/repository/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar:/home/manu2931/.m2/repository/org/apache/maven/shared/maven-filtering/3.3.1/maven-filtering-3.3.1.jar:/home/manu2931/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/manu2931/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/manu2931/.m2/repository/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar:/home/manu2931/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/manu2931/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/manu2931/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/manu2931/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/manu2931"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="/home/manu2931/.sdkman/candidates/java/21.0.2-open"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/manu2931/Desktop/learning/Java/java-parallel-concurrent-distributed-programming/parallel-programming/miniproject_1/miniproject_1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/manu2931/Desktop/learning/Java/java-parallel-concurrent-distributed-programming/parallel-programming/miniproject_1/miniproject_1/target/surefire/surefirebooter-20250411232350699_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.2+13-58"/>
+    <property name="user.name" value="manu2931"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.11.0-21-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/manu2931/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="/home/manu2931/Desktop/learning/Java/java-parallel-concurrent-distributed-programming/parallel-programming/miniproject_1/miniproject_1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.2+13-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+    <property name="argLine" value="-XX:+UseParallelGC -XX:ActiveProcessorCount=16"/>
+  </properties>
+  <testcase name="testParManyTaskTwoHundredMillion" classname="edu.coursera.parallel.ReciprocalArraySumTest" time="11.915">
+    <failure message="It was expected that the many-task parallel implementation would run at least 12.800000x faster, but it only achieved 2.558140x speedup" type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError: It was expected that the many-task parallel implementation would run at least 12.800000x faster, but it only achieved 2.558140x speedup
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.TestCase.assertTrue(TestCase.java:192)
+	at edu.coursera.parallel.ReciprocalArraySumTest.testParManyTaskTwoHundredMillion(ReciprocalArraySumTest.java:157)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at junit.framework.TestCase.runTest(TestCase.java:177)
+	at junit.framework.TestCase.runBare(TestCase.java:142)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:130)
+	at junit.framework.TestSuite.runTest(TestSuite.java:241)
+	at junit.framework.TestSuite.run(TestSuite.java:236)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:90)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[ncores 16
+]]></system-out>
+  </testcase>
+</testsuite>
